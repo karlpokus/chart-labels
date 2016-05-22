@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/chart-labels.svg)](https://badge.fury.io/js/chart-labels)
 [![Build Status](https://travis-ci.org/karlpokus/chart-labels.svg?branch=master)](https://travis-ci.org/karlpokus/chart-labels)
 
 # chart-labels
