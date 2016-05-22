@@ -1,5 +1,5 @@
 # chart-labels
-Generate labels for time series on the x-axis relative to a start date. Returns an array of labels. Works with chartJS, chartist etc. Browserify compatible.
+Generate labels for time series on the x-axis relative to a start date by day or month. Returns an array of labels. Works with chartJS, chartist etc. Browserify compatible.
 
 # Usage
 `var Labels = require('chart-labels');`
@@ -8,7 +8,7 @@ Generate labels for time series on the x-axis relative to a start date. Returns 
 var labels = Labels({
   start: 'today', // (date or string) Start date of the series. Valid strings are 'today' or 'yesterday' REQUIRED
   interval: 'month', // (string) 'day' or 'month' REQUIRED
-  n: 22, // (number) Number of labels REQUIRED
+  n: 12, // (number) Number of labels REQUIRED
   order: 'desc', // (string) 'asc' or 'desc' - Order of returned values - default is 'asc' OPTIONAL
   today : 'idag', // (string) - String to replace first value of returned array OPTIONAL
   yesterday: 'igår', // (string) - String to replace second value of returned array OPTIONAL
