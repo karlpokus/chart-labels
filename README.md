@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/karlpokus/chart-labels.svg?branch=master)](https://travis-ci.org/karlpokus/chart-labels)
+
 # chart-labels
 Generate labels for time series on the x-axis relative to a start date by day or month. Returns an array of labels. Works with chartJS, chartist etc. Browserify compatible.
 
