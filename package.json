@@ -1,0 +1,28 @@
+{
+  "name": "chart-labels",
+  "version": "1.0.0",
+  "description": "simple time-series-labels for charts",
+  "main": "index.js",
+  "keywords": [
+    "labels",
+    "time series",
+    "chart",
+    "browserify compatible"
+  ],
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpokus/chart-labels.git"
+  },
+  "author": "Karl Pokus <karl.pokus@gmail.com> (https://github.com/karlpokus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpokus/chart-labels/issues"
+  },
+  "homepage": "https://github.com/karlpokus/chart-labels#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
