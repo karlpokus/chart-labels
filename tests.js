@@ -1,4 +1,3 @@
-// modules
 var test = require('tape'),
     labels = require('./index.js');
 
